@@ -1,0 +1,82 @@
+.todo{
+    width:300px;
+    min-height:500px;
+    height:auto ;
+    float: left;
+    border-radius: 10px;
+    padding-left: 30px;
+    overflow-y: auto;
+}
+
+
+#delButton{
+    float: right;
+    margin-right: 10px;
+    color: white;
+}
+
+hr{
+    margin-right: 10px;
+    margin-left: -20px;
+    border-color: #D8335B;
+}
+
+.todo, #clock {
+    background-color:#422E39;
+    color: #E6DCDB;
+}
+
+#clock{
+    height: 200px;
+    width: 460px;
+    line-height: 200px; 
+    text-align: center;
+    font-family: 'digital-clock-font';
+    font-size: 100px;
+    border-radius: 10px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+h1{
+    float: center;
+}
+
+.button{
+    position: relative;
+    top: 350px;
+    left: 55px;
+}
+
+#wrapper{
+    color: white;
+}
+
+.evening{
+    background-image: url(0ab911407a30a99667bdd1c2ebcd098c.jpg)
+}
+
+.morning{
+    background-image: url(347ee42fa9ab67ac9e861841eaeb6067.jpg)
+}
+
+.night{
+    background-image: url(82bbeca75e919c74fc8bab276db76bd1.jpg)
+}
+
+.noon{
+    background-image: url(095bc80a47555cf83d06f4fbde39db39.jpg)
+}
+
+.sunrise{
+    background-image: url(1b9981c1c315b037ed1a0a0156dfeffc.jpg)
+}
+
+.sunset{
+    background-image: url(1c9df5edaf86a4d6675c58e691a11d5a.jpg)
+}
+
+@font-face{
+    font-family:'digital-clock-font';
+    src: url(1a5092c73381706d3ba95efa8262d870.woff);
+   }

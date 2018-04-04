@@ -1,0 +1,82 @@
+.todo{
+    width:300px;
+    min-height:500px;
+    height:auto ;
+    float: left;
+    border-radius: 10px;
+    padding-left: 30px;
+    overflow-y: auto;
+}
+
+
+#delButton{
+    float: right;
+    margin-right: 10px;
+    color: white;
+}
+
+hr{
+    margin-right: 10px;
+    margin-left: -20px;
+    border-color: #D8335B;
+}
+
+.todo, #clock {
+    background-color:#422E39;
+    color: #E6DCDB;
+}
+
+#clock{
+    height: 200px;
+    width: 460px;
+    line-height: 200px; 
+    text-align: center;
+    font-family: 'digital-clock-font';
+    font-size: 100px;
+    border-radius: 10px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+h1{
+    float: center;
+}
+
+.button{
+    position: relative;
+    top: 350px;
+    left: 55px;
+}
+
+#wrapper{
+    color: white;
+}
+
+.evening{
+    background-image: url("./images/evening.jpg")
+}
+
+.morning{
+    background-image: url("./images/morning.jpg")
+}
+
+.night{
+    background-image: url("./images/night.jpg")
+}
+
+.noon{
+    background-image: url("./images/noon.jpg")
+}
+
+.sunrise{
+    background-image: url("./images/sunrise.jpg")
+}
+
+.sunset{
+    background-image: url("./images/sunset.jpg")
+}
+
+@font-face{
+    font-family:'digital-clock-font';
+    src: url('./fonts/7segment.woff');
+   }
